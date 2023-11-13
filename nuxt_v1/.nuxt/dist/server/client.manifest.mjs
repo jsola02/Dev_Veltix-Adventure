@@ -1,0 +1,1 @@
+export { default } from "file:///G:/Tamawiki_Comunidad/Tamawiki/v1/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

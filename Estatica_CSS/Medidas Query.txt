@@ -1,0 +1,18 @@
+@media (max-width: 360px) {
+  /* Estilos para dispositivos móviles */
+}
+
+
+
+Vuefity
+XS	<300
+S	< 600px        		2x00: 000rem:0000px	600
+M	600px > < 960px 	2x02: 004rem:0064px	896	
+L	960px > < 1280px 	2x04: 008rem:0128px	1152
+XL	1280px > < 1920px 	2x08: 016rem:1664px	256	
+XXL	1920px > < 2560px 	2x16: 256rem:4096px	
+XXXL	> 2560px
+
+
+
+$color-4c;

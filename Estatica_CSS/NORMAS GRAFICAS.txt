@@ -1,0 +1,18 @@
+//NORMAS GRAFICAS
+
+//FONT
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800&family=Nunito:wght@200;300;400&display=swap');
+$font-primary: 'Montserrat Alternates', sans-serif;
+$font-secondary: 'Bebas Neue', sans-serif;
+$font-tertiary: 'Nunito', sans-serif;
+
+//PALETA DE COLORES
+$color-1: #4640FF;;
+$color-2: #1AA5F6;
+$color-3: #EFAA1C;
+$color-4a: #9333E6;
+$color-4b: #6610f2;
+$color-4c:#160e3d;
+$color-4d: #140e38;
+$color-4e: #0d0923;
+$color-5: #fff;
