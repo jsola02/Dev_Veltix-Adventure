@@ -6,10 +6,7 @@ nuxt_v2
 	pendientes: 
 		barra de busqueda de item
 		navegacion por url, aveces no muestra contenido
-
-
 _________________________________________________________________
-
 
 nuxt_v2
 	Version desde Notbook Asus, funcional

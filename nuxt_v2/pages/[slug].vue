@@ -18,7 +18,7 @@ const post = posts.value[0]
         <h1 class="section_main_news-detail_article_content_title">
           {{ post.title.rendered }}
         </h1>
-        <p>Última actulizacion: {{post.date}}</p>
+        <p>Última actualizacion: {{post.date}}</p>
         <div v-html="post.content.rendered" class="section_main_news-detail_article_content_resume">
         </div>      
       

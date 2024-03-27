@@ -1,0 +1,166 @@
+Pruebas de Deploy proyecto NUXT
+
+npm run generate -> sin env, solo estatico
+
+npx nuxi generate -> sin env, solo estatico
+
+-----------------------------------------------------------
+
+WP_URI=http://gestion.tamawiki.com
+
+------------------------------------------------
+Git™ Version Control
+	clone proyecto
+	/Tamawiki
+	
+
+Node.js
+	Node.js version 		18.16.1
+	Application mode		produccion
+	Application root		tamawiki
+	Application URL			datailab / 
+	Application startup file	(sin nada,  llena auto,aticamente "app.js")
+	
+pause app
+
+Installing NPM...
+
+ERROR ->
+	npm WARN deprecated ohmyfetch@0.4.21: Package renamed to https://github.com/unjs/ofetchsh: nuxt: command not foundnpm ERR! code 127npm ERR! path /home2/datailab/nodevenv/Tamawiki/18/libnpm ERR! command failednpm ERR! command sh -c nuxt preparenpm ERR! A complete log of this run can be found in:npm ERR!     /home2/datailab/.npm/_logs/2023-10-12T02_22_12_184Z-debug-0.log 
+
+--------------------------------------------------------------------
+
+subir solo los archivos que genero elbuil
+npx nuxi build
+
+comprimi toda la carpeta /.output
+subir archivos directorio principal /
+iniciar nueva aplicacion
+	Node.js
+	Node.js version 		18.16.1
+	Application mode		produccion
+	Application root		public_html/server
+	Application URL			 
+	Application startup file	server/index.js
+	OK
+
+agregar por terminal
+source /home2/datailab/nodevenv/public_html/server/18/bin/activate && cd /home2/datailab/public_html/server
+
+corregir error:
+	Cloudlinux NodeJS Selector demands to store node modules for application in separate folder (virtual environment) pointed by symlink called "node_modules". That's why application should not contain folder/file with such name in application root 
+
+- eliminar directorio node_module
+rm -rf node_modules/
+
+OK
+
+----> sigue sin mostrar resultado, ver mas informacion de deploy
+
+
+-------------------------------------------------------------------------
+fijarse en los directorios que hay dentro de carpeta /.output, porque el resultado del paso pasado crea nuevamente un public y un server....quizas hya que editar la infor al INICIAR UNA NUEVA APLIACION DE NODE
+
+iniciar nueva aplicacion
+	Node.js
+	Node.js version 		18.16.1
+	Application mode		produccion
+	Application root		public_html/server
+	Application URL			 
+	Application startup file	server/index.js
+
+SON DIRECTORIOS Y ARCHIVOS QUE CREA LA APP DE NODE 
+----------------------------
+
+iniciar nueva aplicacion
+	Node.js
+	Node.js version 		18.16.1
+	Application mode		produccion
+	Application root		public_html
+	Application URL			public
+	Application startup file	index.mjs
+
+NO SE PUEDE EN /
+		WWW
+		public_html
+----------------------------------------
+
+iniciar nueva aplicacion
+	Node.js
+	Node.js version 		18.16.1
+	Application mode		produccion
+	Application root		serv
+	Application URL			public
+	Application startup file	serv/index.mjs
+
+
+fijarse bien en las rutas, estas se crean directamente en el servidor, fuera de www y public
+-------------------------------------------------------
+
+iniciar nueva aplicacion
+	Node.js
+	Node.js version 		18.16.1
+	Application mode		produccion
+	Application root		public_html/serv
+	Application URL			public_html/public
+	Application startup file	public_html/serv/index.mjs
+
+----------------------------------------------------------
+iniciar nueva aplicacion
+	Node.js
+	Node.js version 		18.16.1
+	Application mode		produccion
+	Application root		www
+	Application URL			public_html/public
+	Application startup file	public_html/server/index.mjs
+MALO
+-----------------------------------------------------------
+iniciar nueva aplicacion
+	Node.js
+	Node.js version 		18.16.1
+	Application mode		produccion
+	Application root		www
+	Application URL			public
+	Application startup file	server/index.mjs
+MALO
+-----------------------------------------------------------
+iniciar nueva aplicacion
+	Node.js
+	Node.js version 		18.16.1
+	Application mode		produccion
+	Application root		public_html/wiki
+	Application URL			
+	Application startup file	public_html/server/index.mjs
+MALO
+-----------------------------------------------------------
+probar esto
+iniciar nueva aplicacion
+	Node.js
+	Node.js version 		18.16.1
+	Application mode		produccion
+	Application root		ta
+	Application URL				(crea un public dejando en blanco)
+	Application startup file	-server/index.mjs
+
+MALO-> falta wel package json, detectado automatico
+-------------------------------------------------------------
+primero cree los directorios
+iniciar nueva aplicacion
+	Node.js
+	Node.js version 		18.16.1
+	Application mode		produccion
+	Application root		tam/server
+	Application URL				(crea un public dejando en blanco)
+	Application startup file	server/index.mjs
+
+pasa ok el erro de json
+se vuelven a crear los mismo direcotrios dentro
+	public
+	server
+genera node_module
+
+fijarse bien en las rutas, estas se crean directamente en el servidor, fuera de www y public
+
+
+subir todos los archivos + lo que genera el build
+
