@@ -1,43 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/scss/style.css">  
-  <link rel="stylesheet" href="./assets/scss/noticias.css">
+  <link rel="stylesheet" href="../src/styles/style.css">
+  <link rel="stylesheet" href="../src/styles/noticias.css">
   <title>Noticias</title>
 </head>
 
 <body style="background:#000033">
   <header class="cont_header">
-    <div class="cont_header_nav">
-      <nav class="cont_header_nav-logo">
-        <a class="cont_header_nav-logo_link" href="/index.html" alt="Logo Tamawiki" title="logo tamakindom para recargar pagina de inicio">
-          <img class="cont_header_nav-logo_link_img" alt="Logo Tamawiki" title="logo en forma de corona, comunidad TAMAKINGDOM" src="/assets/icons-buttoms/logo.webp">
-          <p class="cont_header_nav-logo_link_title">TamaWiki</p>       
-        </a>
-      </nav>
-      <nav class="cont_header_nav-menu">
-        <ul class="cont_header_nav-menu_list">
-          <li class="cont_header_nav-menu_list_item">
-            <a class="cont_header_nav-menu_list_item_link" href="">Inicio</a>
-          </li>
-          <li class="cont_header_nav-menu_list_item">
-            <a class="cont_header_nav-menu_list_item_link" href="/noticiasA.html">Noticias A</a>
-          </li>
-          <li class="cont_header_nav-menu_list_item">
-            <a class="cont_header_nav-menu_list_item_link" href="/noticiasB.html">Noticias B</a>
-          </li>
-          <li class="cont_header_nav-menu_list_item">
-            <a class="cont_header_nav-menu_list_item_link" href="">Economia</a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="cont_header_nav-toggle">
-        <h1 class="cont_header_nav-toggle_title">Menu</h1>        
-      </nav>
-    </div>
+    <nav class="cont_header_nav-logo">
+      <a class="cont_header_nav-logo_link" href="/#" alt="Logo Tamawiki"
+        title="logo tamakindom para recargar pagina de inicio">
+        <img class="cont_header_nav-logo_link_img" src="/src/assets/images/icons-buttoms/logo.webp" alt="Logo">
+
+        <p class="cont_header_nav-logo_link_title">TamaWiki</p>
+      </a>
+    </nav>
+
+    <button id="abrir" class="cont_header_nav-button_open" title="Boton para desplegar menu">
+      <i class="cont_header_nav-button_open_icon las la-hamburger la-3x"></i>
+    </button>
+
+    <nav class="cont_header_nav-menu " id="nav">
+      <button class="cont_header_nav-button_close" id="cerrar" title="Boton para desplegar menu">
+        <i class="cont_header_nav-button_close_icon las la-times la-3x"></i>
+      </button>
+      <ul class="cont_header_nav-menu_list">
+        <li class="cont_header_nav-menu_list_item ">
+          <a class="cont_header_nav-menu_list_item_link" href="/index.html">Inicio</a>
+        </li>
+        <li class="cont_header_nav-menu_list_item ">
+          <a class="cont_header_nav-menu_list_item_link" href="/noticiasA.html">Noticias A</a>
+        </li>
+        <li class="cont_header_nav-menu_list_item ">
+          <a class="cont_header_nav-menu_list_item_link" href="/noticiasB.html">Noticias B</a>
+        </li>
+        <li class="cont_header_nav-menu_list_item ">
+          <a class="cont_header_nav-menu_list_item_link" href="#">Detalles Noticia</a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
   <main class="section_main">
@@ -45,7 +50,8 @@
     <section class="section_main_news">
       <article class="section_main_news_article">
         <div class="section_main_news_article_tumbnail">
-          <img src="@/assets/images/news/pagenews_n1.webp" alt="">
+          <!-- <img src="@/assets/images/news/pagenews_n1.webp" alt=""> -->
+          <img src="../src/assets/images/news/news-1.webp" alt="">
         </div>
         <div class="section_main_news_article_content">
           <h1 class="section_main_news_article_content_title">Lorem ipsum dolor sit amet
@@ -60,7 +66,8 @@
 
       <article class="section_main_news_article">
         <div class="section_main_news_article_tumbnail">
-          <img src="@/assets/images/news/pagenews_n5.png" alt="">
+          <!-- <img src="@/assets/images/news/pagenews_n5.png" alt=""> -->
+          <img src="../src/assets/images/news/news-1.webp" alt="">
         </div>
         <div class="section_main_news_article_content">
           <h1 class="section_main_news_article_content_title">Lorem ipsum dolor sit amet
@@ -75,7 +82,7 @@
 
       <article class="section_main_news_article">
         <div class="section_main_news_article_tumbnail">
-          <img src="@/assets/images/news/pagenews_n1.webp" alt="">
+          <img src="../src/assets/images/news/news-1.webp" alt="">
         </div>
         <div class="section_main_news_article_content">
           <h1 class="section_main_news_article_content_title">Lorem ipsum dolor sit amet
@@ -90,7 +97,7 @@
 
       <article class="section_main_news_article">
         <div class="section_main_news_article_tumbnail">
-          <img src="@/assets/images/news/pagenews_n5.png" alt="">
+          <img src="../src/assets/images/news/news-1.webp" alt="">
         </div>
         <div class="section_main_news_article_content">
           <h1 class="section_main_news_article_content_title">Lorem ipsum dolor sit amet
@@ -109,7 +116,8 @@
       <div class="section_main_aside_adds">
         <h3 class="section_main_aside_adds_title">Premio Semanal</h3>
         <div class="section_main_aside_adds_tumb">
-          <img class="section_main_aside_adds_tumb_img" src="/assets/adds/adds2.jpg" alt="">
+          <!-- <img class="section_main_aside_adds_tumb_img" src="/assets/adds/adds2.jpg" alt=""> -->
+          <img class="section_main_aside_adds_tumb_img" src="../src/assets/images/adds/adds2.jpg" alt="">
         </div>
       </div>
 
@@ -159,11 +167,6 @@
           <a class="section_main_aside_wikitags_list_link" href=""> Hacha De La Luna</a>
         </div>
       </div>
-
-
-
-
-
     </aside>
   </main>
 
@@ -173,7 +176,9 @@
         <h2 class="footer-grid-social_title">Partners</h2>
         <div class="footer-grid-social_images">
           <a class="footer-grid-social_images_link" href="#" aria-label="ir a la web se AckaGame">
-            <img class="footer-grid-social_images_link-img" src="/assets/images/Logotipo_ACKA_blanco.png" alt="">
+            <!--  <img class="footer-grid-social_images_link-img" src="/assets/images/Logotipo_ACKA_blanco.png" alt=""> -->
+            <img class="footer-grid-social_images_link-img" src="../src/assets/images/pages/Logo_Acka_Game_blanco.webp"
+              alt="">
           </a>
         </div>
       </div>
