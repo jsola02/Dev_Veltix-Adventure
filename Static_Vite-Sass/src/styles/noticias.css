@@ -35,6 +35,7 @@ p {
   text-align: start;
 }
 .section_headerblog_content_title {
+  margin-top: 32px;
   text-align: center;
 }
 .section_headerblog_content_breadcrumbs {
@@ -104,7 +105,7 @@ p {
   margin: 0 auto;
 }
 .section_main_newsb_article {
-  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding-top: 2.5rem;
   display: flex;
   flex-direction: column;
@@ -297,6 +298,48 @@ p {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
 }
+@media (min-width: 620px) and (max-width: 1024px) {
+  .section_main_newsb {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  .section_main_newsb_article {
+    margin-bottom: 0px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 3rem;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    position: relative;
+    left: 0px;
+  }
+  .section_main_newsb_article_date {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+  }
+  .section_main_newsb_article_title {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .section_main_newsb_article_resume {
+    font-family: "Nunito", sans-serif;
+    color: #c4cbf9;
+    line-height: 1.6;
+    margin-top: 0.8rem;
+    margin-bottom: 3px;
+  }
+  .section_main_newsb_article_more {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    color: #EFAA1C;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+  }
+}
 @media (min-width: 1024px) and (max-width: 1280px) {
   .section_main .section_main {
     width: 90%;
@@ -308,11 +351,71 @@ p {
     grid-template-areas: "section_main_news section_main_aside";
     gap: 1.5rem;
   }
-  .section_main_aside {
+  .section_main .section_main_newsb {
+    display: grid;
+    grid-area: section_main_news;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  .section_main .section_main_newsb_article {
+    margin-bottom: 0px;
+  }
+  .section_main .section_main_newsb_article_tumbnail {
+    max-width: 180px;
+    max-height: 180px;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 13px;
+  }
+  .section_main .section_main_newsb_article_tumbnail_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .section_main .section_main_newsb_article_content {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 3rem;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    position: relative;
+    left: 0px;
+  }
+  .section_main .section_main_newsb_article_content_date {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+  }
+  .section_main .section_main_newsb_article_content_title {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .section_main .section_main_newsb_article_content_resume {
+    font-family: "Nunito", sans-serif;
+    color: #c4cbf9;
+    line-height: 1.6;
+    margin-top: 0.8rem;
+    margin-bottom: 3px;
+  }
+  .section_main .section_main_newsb_article_content_more {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    color: #EFAA1C;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+  }
+  .section_main .section_main_aside {
     margin: 0 auto;
     width: 90%;
+    grid-area: section_main_aside;
   }
-  .section_main_aside_adds {
+  .section_main .section_main_aside_adds {
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
@@ -325,20 +428,20 @@ p {
     max-width: 100%;
     box-sizing: border-box;
   }
-  .section_main_aside_adds_title {
+  .section_main .section_main_aside_adds_title {
     font-weight: 600;
     margin-left: 0px;
     margin-top: 0px;
   }
-  .section_main_aside_adds_tumb {
+  .section_main .section_main_aside_adds_tumb {
     display: flex;
     justify-content: space-around;
   }
-  .section_main_aside_adds_tumb_img {
+  .section_main .section_main_aside_adds_tumb_img {
     border-radius: 4px 4px 4px 4px;
     width: 180px;
   }
-  .section_main_aside_category {
+  .section_main .section_main_aside_category {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: 13px 13px 13px 13px;
@@ -348,29 +451,29 @@ p {
     padding-bottom: 1rem;
     background: #160351;
   }
-  .section_main_aside_category_title {
+  .section_main .section_main_aside_category_title {
     font-weight: 600;
   }
-  .section_main_aside_category_list {
+  .section_main .section_main_aside_category_list {
     width: 95%;
     padding-left: 0px;
     margin-left: 0px;
     list-style: none;
     font-family: "Nunito", sans-serif;
   }
-  .section_main_aside_category_list_item {
+  .section_main .section_main_aside_category_list_item {
     color: #c4cbf9;
     /*  border-bottom: 1px solid #766ee659; */
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  .section_main_aside_category_list_item_link {
+  .section_main .section_main_aside_category_list_item_link {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
     color: #c1bdf4;
   }
-  .section_main_aside_wikitags {
+  .section_main .section_main_aside_wikitags {
     margin-top: 2rem;
     border-radius: 13px 13px 13px 13px;
     padding: 1.8rem;
@@ -379,10 +482,10 @@ p {
     padding-bottom: 1rem;
     background: #160351;
   }
-  .section_main_aside_wikitags_title {
+  .section_main .section_main_aside_wikitags_title {
     font-weight: 600;
   }
-  .section_main_aside_wikitags_list_link {
+  .section_main .section_main_aside_wikitags_list_link {
     text-decoration: none;
     padding: 1rem 2rem;
     border: 1px solid #4c3789;
