@@ -903,6 +903,7 @@ body::-webkit-scrollbar-thumb {
 
       &-social {
         padding-bottom: 1rem;
+        grid-column: span 2;
 
         &_images {
           &_link {
@@ -917,6 +918,7 @@ body::-webkit-scrollbar-thumb {
 
       &-text {
         padding-bottom: 1rem;
+        grid-column: span 2;
 
         &_description {
           text-align: center;
@@ -952,7 +954,7 @@ body::-webkit-scrollbar-thumb {
 
   // para hacer Test y reconocer facil
   .cont_header {
-    background: #ffc710;
+    background: #ffb01e;
   }
 
   // para hacer Test y reconocer facil
@@ -1133,6 +1135,7 @@ body::-webkit-scrollbar-thumb {
 
       &-social {
         padding-bottom: 1rem;
+        grid-column: span 2;
 
         &_images {
           &_link {
@@ -1147,6 +1150,7 @@ body::-webkit-scrollbar-thumb {
 
       &-text {
         padding-bottom: 1rem;
+        grid-column: span 2;
 
         &_description {
           text-align: center;

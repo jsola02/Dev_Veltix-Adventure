@@ -729,6 +729,7 @@ body::-webkit-scrollbar-thumb {
   }
   .footer-grid-social {
     padding-bottom: 1rem;
+    grid-column: span 2;
   }
   .footer-grid-social_images_link-img {
     display: inline-flex;
@@ -737,6 +738,7 @@ body::-webkit-scrollbar-thumb {
   }
   .footer-grid-text {
     padding-bottom: 1rem;
+    grid-column: span 2;
   }
   .footer-grid-text_description {
     text-align: center;
@@ -761,7 +763,7 @@ body::-webkit-scrollbar-thumb {
 }
 @media (min-width: 620px) and (max-width: 1024px) {
   .cont_header {
-    background: #ffc710;
+    background: #ffb01e;
   }
   .section_slide {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -901,6 +903,7 @@ body::-webkit-scrollbar-thumb {
   }
   .footer-grid-social {
     padding-bottom: 1rem;
+    grid-column: span 2;
   }
   .footer-grid-social_images_link-img {
     display: inline-flex;
@@ -909,6 +912,7 @@ body::-webkit-scrollbar-thumb {
   }
   .footer-grid-text {
     padding-bottom: 1rem;
+    grid-column: span 2;
   }
   .footer-grid-text_description {
     text-align: center;
