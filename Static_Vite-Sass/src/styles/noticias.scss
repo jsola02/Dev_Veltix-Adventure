@@ -91,7 +91,6 @@
   flex-direction: column;
   gap: 1.5rem;
 
-
   /*-------section NOTICIAS & ITEMS  --------------*/
   &_newsb {
     width: 90%;
@@ -228,14 +227,64 @@
   }
 
   /*  ---- section Detalles de noticia -----*/
-  &_news-detail {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    margin-bottom: 6rem;
+  &_news {
+    width: 90%;
+    margin: auto;
 
     &_article {
+      display: flex;
+      flex-direction: column;
+      background: cfg.$color-background;
+      margin-top: 2rem;
 
+      &_tumbnail {
+        width: 100%;
+        height: auto;
+        //overflow: hidden;
+
+        &_img {
+          vertical-align: middle;
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+
+        }
+      }
+
+      &_content {
+        background: cfg.$color-4c;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        //margin-top: -110px;
+        margin-top: -30px;
+        padding: 1.2rem 1.8rem;
+        position: relative;
+
+        &_title {
+          color: cfg.$color-5;
+          font-weight: 600;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+
+        &_resume {
+          font-family: cfg.$font-tertiary;
+          color: cfg.$color-5b;
+          line-height: 1.6;
+        }
+
+      }
+    }
+
+    /*   &_news {
+    &_news-detail {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      margin-bottom: 6rem; 
+
+        &_article {
+      width: 90%;
       display: flex;
       flex-direction: column;
       padding-top: 0px;
@@ -244,8 +293,8 @@
       align-content: center;
 
       &_tumbnail {
-        width: 290px;
-        height: 150px;
+        width: 100%;
+        // height: 150px;
         //overflow: hidden;
         border-radius: 15px;
 
@@ -288,7 +337,11 @@
           font-family: cfg.$font-tertiary;
         }
       }
-    }
+    } 
+  }
+}
+*/
+
   }
 
   /*  ---------- section aside -------------*/
@@ -392,7 +445,11 @@
       }
     }
   }
+
 }
+
+/*  ---- section Detalles de noticia -----*/
+
 
 
 //--------------MEDIA QUERYS--------------//
@@ -518,8 +575,6 @@
 }
 
 
-
-
 // --------- PARTE DE NUXT------------------//
 // --------- NOTICIAS FILTRADAS ------------//
 
@@ -627,7 +682,7 @@
       &_link {
         text-decoration: none;
         padding: 1rem 2rem;
-        border: 1px solid #4c3789;
+        border: 1px solid #893777;
         border-radius: 48px;
         margin: 6px 3px;
         display: inline-block;
@@ -647,3 +702,139 @@
 
   }
 }
+
+
+/* RESPALDO
+&_newsb {
+  width: 90%;
+  margin: 0 auto;
+
+  &_article {
+    margin-bottom: 2rem;
+    //padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    background: cfg.$color-4c;
+    align-items: center;
+
+    &_tumbnail-noticia {
+      width: 100%;
+
+      &_img {
+        width: 100%;
+        height: 100%;
+
+      }
+    }
+
+    &_tumbnail-item {
+      max-width: 180px;
+      max-height: 180px;
+      width: 180px;
+      height: 180px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 13px;
+
+      &_img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        object-fit: cover;
+      }
+    }
+
+
+    &_content {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      //margin-top: 2rem;
+      margin-bottom: 3rem;
+      padding: 0rem 0.5rem 0rem 0.5rem;
+      position: relative;
+      left: 0px;
+
+      &_date {
+        font-size: 0.8rem;
+        margin-bottom: 8px;
+      }
+
+      &_title {
+        font-size: 1.5rem;
+        color: cfg.$color-5;
+        font-weight: 600;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+      }
+
+      &_resume {
+        font-family: cfg.$font-tertiary;
+        color: cfg.$color-5b;
+        line-height: 1.6;
+        margin-top: 0.8rem;
+        margin-bottom: 3px;
+      }
+
+      &_more {
+        font-size: 1.0rem;
+        margin-top: 1rem;
+        margin-bottom: 0px;
+        color: cfg.$color-3;
+        font-family: cfg.$font-tertiary;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &_article-item {
+    margin-bottom: 2rem;
+    padding-top: 2.0rem;
+    display: flex;
+    flex-direction: column;
+    background: cfg.$color-4c;
+    align-items: center;
+    text-align: center;
+
+
+    &_tumbnail {
+      max-width: 180px;
+      max-height: 180px;
+      width: 180px;
+      height: 180px;
+      overflow: hidden;
+      border-radius: 13px;
+
+      &_img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+
+    &_content {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      padding: 0rem 0.5rem 0rem 0.5rem;
+
+      &_title {
+        font-size: 1.5rem;
+        color: cfg.$color-5;
+        font-weight: 600;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+      }
+
+      &_more {
+        font-size: 1.0rem;
+        margin-top: 1rem;
+        margin-bottom: 0px;
+        color: cfg.$color-3;
+        font-family: cfg.$font-tertiary;
+        text-decoration: none;
+      }
+    }
+  }
+
+} */
