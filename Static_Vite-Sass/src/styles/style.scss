@@ -465,9 +465,38 @@ body::-webkit-scrollbar-thumb {
           }
         }
       }
+
+
     }
   }
 
+  &_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_all {
+      font-family: cfg.$font-primary;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: cfg.$color-5;
+      background-color: cfg.$color-3;
+      border: 1px solid cfg.$color-3;
+      border-radius: 5px;
+      cursor: pointer;
+      /* Cambia el cursor a pointer */
+      transition: background-color 0.3s, color 0.3s;
+      /* Transición para el efecto hover */
+      text-decoration: none;
+    }
+
+    &_all:hover {
+      background-color: #000;
+      /* Cambia el color de fondo al pasar el cursor */
+      color: #fff;
+      /* Cambia el color del texto al pasar el cursor */
+    }
+  }
 }
 
 .footer {
@@ -991,30 +1020,6 @@ body::-webkit-scrollbar-thumb {
         height: 100%;
       }
     }
-
-    /*    @media (min-width: 600px) and (max-width:689px) {
-      &_image {
-      width: 315px;
-      height: 318.5;
-        &_gamer {
-          width: 100%;
-          right: 10px;
-          left: -80px;
-        }
-      }
-    } */
-
-    /* @media (min-width: 689px) and (max-width:845px) {
-      &_image {
-      width: 315px;
-      height: 318.5;
-        &_gamer {
-          width: 100%;
-          right: 10px;
-          left: -80px;
-        }
-      }
-    } */
   }
 
   .section_category-popular {
