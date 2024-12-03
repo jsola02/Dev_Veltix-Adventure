@@ -51,6 +51,20 @@ body::-webkit-scrollbar-thumb {
   border-bottom-width: 3px;
 }
 
+@keyframes slideInOut {
+  0% {
+    transform: translateX(45%);
+    /* Fuera de la pantalla por la izquierda */
+  }
+  50% {
+    transform: translateX(-5%);
+    /* Mueve la imagen completamente hacia la derecha */
+  }
+  100% {
+    transform: translateX(0);
+    /* Vuelve a la posición inicial */
+  }
+}
 /* Estilos para dispositivos móviles, Tamaño XS, Mobile */
 .cont_header {
   top: 0;
@@ -227,6 +241,11 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 100%;
   left: 40px;
+  animation: slideInOut 2.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+.section_slide_image_gamer:hover {
+  transform: translateY(-10px);
 }
 
 .section_category-popular {
@@ -275,6 +294,18 @@ body::-webkit-scrollbar-thumb {
   width: 180px;
   height: 198px;
   /* max-width: 280px; */
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+  transform: rotate(0deg);
+}
+.section_category-popular_content-card:nth-child(1) .section_category-popular_content-card_img:hover {
+  transform: rotate(-25deg);
+}
+.section_category-popular_content-card:nth-child(2) .section_category-popular_content-card_img:hover {
+  transform: scale(1.1);
+}
+.section_category-popular_content-card:nth-child(3) .section_category-popular_content-card_img:hover {
+  transform: rotate(25deg);
 }
 .section_category-popular_content-card_text {
   font-family: "Nunito", sans-serif;
@@ -349,6 +380,12 @@ body::-webkit-scrollbar-thumb {
      object-fit: cover;
   margin-top: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+.section_hability_content_items_img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 25px 1px #ec731e;
 }
 
 .section_news {
