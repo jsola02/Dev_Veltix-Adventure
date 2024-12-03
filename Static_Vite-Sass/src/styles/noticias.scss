@@ -131,7 +131,6 @@
         }
       }
 
-
       &_content {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
@@ -171,6 +170,8 @@
           text-decoration: none;
         }
       }
+
+
     }
 
     &_article-item {
@@ -224,6 +225,38 @@
       }
     }
 
+    &_pagination {
+
+      &_list {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        padding-left: 0px;
+
+        &_number {
+          border: 1px solid cfg.$color-3 ;
+          border-radius: 0px 0px 0px 12px;
+          color: cfg.$color-5;
+          background-color: cfg.$color-3;
+          margin: 0px 3px;
+          width: 18px;
+          text-align: center;
+          font-weight: 800;
+        }
+
+        &_number.active {
+          border: 1px solid #e2be64;
+          background-color: #e2be64;
+          border-radius: 0px 0px 0px 12px;
+          color: cfg.$color-5;
+          margin: 0px 3px;
+          width: 18px;
+          text-align: center;
+          font-weight: 800;
+        }
+      }
+    }
+
   }
 
   /*  ---- section Detalles de noticia -----*/
@@ -268,6 +301,40 @@
           font-family: cfg.$font-tertiary;
           color: cfg.$color-5b;
           line-height: 1.6;
+        }
+      }
+    }
+
+    &_pagination {
+
+      &_list {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        padding-left: 0px;
+
+        &_word {
+          border: 1px solid cfg.$color-3 ;
+          border-radius: 125px 125px 125px 125px;
+          color: cfg.$color-5;
+          background-color: cfg.$color-3;
+          padding: 3px 0.5rem;
+          margin-left: 20px;
+          font-family: sans-serif;
+          //width: 18px;
+          //text-align: center;
+          //font-weight: 800;
+        }
+
+        &_word.active {
+          border: 1px solid #e2be64;
+          background-color: #e2be64;
+          border-radius: 0px 0px 0px 12px;
+          color: cfg.$color-5;
+          margin: 0px 3px;
+          width: 18px;
+          text-align: center;
+          font-weight: 800;
         }
       }
     }
