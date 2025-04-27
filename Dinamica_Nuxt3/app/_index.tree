@@ -1,0 +1,128 @@
+Dinamica_Nuxt3/
+├─ .output/
+│  └─ public/
+├─ assets/
+│  ├─ css/
+│  │  ├─ _config.scss
+│  │  ├─ global.css
+│  │  ├─ global.css.map
+│  │  ├─ global.scss
+│  │  ├─ style.css
+│  │  ├─ style.css.map
+│  │  └─ style.scss
+│  ├─ images/
+│  │  ├─ adds/
+│  │  │  ├─ adds1.jpg
+│  │  │  └─ adds2.jpg
+│  │  ├─ icons-buttoms/
+│  │  │  ├─ favicon.ico
+│  │  │  ├─ get-it-on_playstore.png
+│  │  │  ├─ logo.webp
+│  │  │  ├─ menu_shape.webp
+│  │  │  ├─ navigation-bg1.webp
+│  │  │  └─ title-purchase.webp
+│  │  ├─ items/
+│  │  │  ├─ armas/
+│  │  │  │  ├─ bebida_energetizante_legendario.jpeg
+│  │  │  │  └─ elixir_azul_legendario.png
+│  │  │  ├─ comida/
+│  │  │  │  ├─ mitico.jpeg
+│  │  │  │  ├─ pastelito_afortunado_mitico.jpeg
+│  │  │  │  ├─ pollo_asado_legendario.jpeg
+│  │  │  │  └─ Sopa-revitalizante-del-principe-Anubis-segundo.webp
+│  │  │  └─ gemas/
+│  │  │     ├─ gem1.webp
+│  │  │     ├─ gem2.webp
+│  │  │     └─ gem3.webp
+│  │  ├─ news/
+│  │  │  ├─ cuarta-evolucion-gatito-1.webp
+│  │  │  ├─ n1.webp
+│  │  │  ├─ n2.webp
+│  │  │  ├─ n3.webp
+│  │  │  ├─ n4.webp
+│  │  │  ├─ pagenews_n1.webp
+│  │  │  ├─ pagenews_n5.png
+│  │  │  └─ pociones.jpg
+│  │  └─ pages/
+│  │     ├─ anillo2.webp
+│  │     ├─ bg00.webp
+│  │     ├─ bg1.webp
+│  │     ├─ bg2.webp
+│  │     ├─ bg3.webp
+│  │     ├─ bg4.webp
+│  │     ├─ card-1.png
+│  │     ├─ card-3.png
+│  │     ├─ card1-bg1.webp
+│  │     ├─ card2-bg1.webp
+│  │     ├─ card3-bg1.webp
+│  │     ├─ cf-1.webp
+│  │     ├─ cf-5.webp
+│  │     ├─ Chanchito.png
+│  │     ├─ gamer.webp
+│  │     ├─ historia.webp
+│  │     ├─ huevoo 1.png
+│  │     ├─ isotipo_blanco.png
+│  │     ├─ Logotipo_ACKA_blanco.webp
+│  │     ├─ mazmorra.d49bacd.png
+│  │     ├─ netgamez.png
+│  │     ├─ player-gameplay1.webp
+│  │     ├─ player-gameplay2.webp
+│  │     ├─ player-gameplay3.webp
+│  │     ├─ s1.jpg
+│  │     ├─ tama-huevos.png
+│  │     ├─ tama1.png
+│  │     ├─ tama2.png
+│  │     ├─ tama3.png
+│  │     └─ TamaAcuatico.png
+│  └─ js/
+│     └─ menu.js
+├─ components/
+│  ├─ Blog/
+│  │  ├─ CardCategoryItem.vue
+│  │  ├─ CardNewsCategory.vue
+│  │  ├─ CardNewsHome.vue
+│  │  └─ CategoriesAside.vue
+│  ├─ Menu/
+│  │  ├─ Categorias.txt
+│  │  ├─ Categorias.vue
+│  │  ├─ CategoriasToogle.vue
+│  │  └─ Top.vue
+│  └─ Page/
+│     ├─ CategoryArmasHome.vue
+│     ├─ CategoryComidaHome.vue
+│     ├─ CategoryElixirHome.vue
+│     ├─ Footer.vue
+│     ├─ Header.vue
+│     ├─ HeaderGlobal.vue
+│     └─ NewsHome.vue
+├─ composables/
+│  ├─ Base.txt
+│  └─ useWpApi.ts
+├─ pages/
+│  ├─ items/
+│  │  ├─ posts/
+│  │  │  ├─ [slug].vue
+│  │  │  └─ details.vue
+│  │  ├─ [slug].vue
+│  │  └─ index.vue
+│  ├─ [slug].vue
+│  └─ index.vue
+├─ public/
+│  ├─ _favicon.ico
+│  └─ favicon.ico
+├─ server/
+│  └─ tsconfig.json
+├─ types/
+│  ├─ post.d.ts
+│  └─ types.ts
+├─ _index.tree
+├─ .env
+├─ .gitignore
+├─ .npmrc
+├─ app.vue
+├─ env.example
+├─ nuxt.config.ts
+├─ package-lock.json
+├─ package.json
+├─ README.md
+└─ tsconfig.json
