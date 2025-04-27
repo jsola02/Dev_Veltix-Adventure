@@ -1,5 +1,5 @@
 //@import './config';
-@use './_config' as cfg;
+@use './_config' as config;
 
 body {
   border-left: 1px solid #ef2c93;
@@ -207,7 +207,7 @@ body::-webkit-scrollbar-thumb {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  //width: 100%;
+  //width: 90%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   align-content: stretch;
@@ -1238,7 +1238,7 @@ body::-webkit-scrollbar-thumb {
 
   // para hacer Test y reconocer facil
   .cont_header {
-    background: #20adff;
+    background: #ff9720;
   }
 
   // para hacer Test y reconocer facil
@@ -1462,7 +1462,7 @@ body::-webkit-scrollbar-thumb {
             &-img {
               display: inline-flex;
               width: 90px;
-              height: 120px;
+              height: 80px;
             }
           }
         }
