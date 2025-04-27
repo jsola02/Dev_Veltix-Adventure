@@ -1,0 +1,37 @@
+# Nuxt dev/build outputs
+.vitepress/dist
+/Dinamica_Nuxt3/docs/.vitepress/dist
+.vitepress/cache
+/Dinamica_Nuxt3/docs/.vitepress/cache
+.output
+/Dinamica_Nuxt3/app/.output
+.data
+/Dinamica_Nuxt3/app/.data
+.nuxt
+/Dinamica_Nuxt3/app/.nuxt
+.nitro
+/Dinamica_Nuxt3/app/.nitro
+.cache
+/Dinamica_Nuxt3/app/.cache
+dist
+/Dinamica_Nuxt3/app/dist
+
+
+# Node dependencies
+/Dinamica_Nuxt3/app/node_modules
+/Dinamica_Nuxt3/docs/node_modules
+/Static_Vite-Sass/node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
