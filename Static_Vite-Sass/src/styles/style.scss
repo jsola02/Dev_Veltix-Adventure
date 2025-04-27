@@ -20,10 +20,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 13px 13px 13px 13px;
 }
 
-
 // temporal para Menu activo
 .active {
-  border: 1px solid #EFAA1C;
+  border: 1px solid #efaa1c;
   border-top: hidden;
   border-left: hidden;
   border-right: hidden;
@@ -47,8 +46,6 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-
-
 // -----------Index ------------------------- //
 /* Estilos para dispositivos móviles, Tamaño XS, Mobile */
 // Color Defecto MORADO
@@ -63,7 +60,6 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: space-between;
   box-shadow: 10px 5px 5px rgba(56, 55, 55, 0.065);
-
 
   &_nav {
     padding: 1rem 1rem;
@@ -86,7 +82,7 @@ body::-webkit-scrollbar-thumb {
 
         &_img {
           width: 50px;
-          height: 38.0px;
+          height: 38px;
           margin-left: 0.8rem;
           margin-top: 0px;
         }
@@ -146,7 +142,6 @@ body::-webkit-scrollbar-thumb {
         font-size: 2.5em;
       }
     }
-
   }
 
   @media screen and (max-width: 960px) {
@@ -208,7 +203,7 @@ body::-webkit-scrollbar-thumb {
 
 .section_slide {
   //background-image: url("~/assets/images/pages/bg1.webp");
-  background-image: url("../assets/images/pages/bg1.webp");
+  background-image: url('../assets/images/pages/bg1.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -223,7 +218,7 @@ body::-webkit-scrollbar-thumb {
     padding: 1rem;
 
     &_title {
-      font-size: 2.0rem;
+      font-size: 2rem;
       text-transform: uppercase;
       margin-top: 10px;
       margin-bottom: 10px;
@@ -236,7 +231,7 @@ body::-webkit-scrollbar-thumb {
 
     &_button {
       //background-image: url("~/assets/images/icons-buttoms/get-it-on_playstore.png");
-      background-image: url("../assets/images/icons-buttoms/get-it-on_playstore.png");
+      background-image: url('../assets/images/icons-buttoms/get-it-on_playstore.png');
       background-repeat: no-repeat;
       background-size: 120px;
       width: 120px;
@@ -266,8 +261,6 @@ body::-webkit-scrollbar-thumb {
     &_gamer:hover {
       transform: translateY(-10px);
     }
-
-
   }
 }
 
@@ -315,7 +308,7 @@ body::-webkit-scrollbar-thumb {
       text-align: center;
       margin: 0px 8px 16px 8px;
       //background-image: url("./../images/pages/card1-bg1.webp");
-      background-image: url("../assets/images/pages/card1-bg1.webp");
+      background-image: url('../assets/images/pages/card1-bg1.webp');
       background-repeat: no-repeat;
       background-size: cover;
       width: 290px;
@@ -339,7 +332,7 @@ body::-webkit-scrollbar-thumb {
 
       &:nth-child(2) .section_category-popular_content-card_img {
         &:hover {
-          transform: scale(1.10);
+          transform: scale(1.1);
         }
       }
 
@@ -349,19 +342,16 @@ body::-webkit-scrollbar-thumb {
         }
       }
 
-
-
-
       &_text {
         font-family: cfg.$font-tertiary;
         line-height: 1.5;
-        padding: 1.0rem;
+        padding: 1rem;
         margin-bottom: 0px;
       }
 
       &_link {
         //background: url("~/assets/images/icons-buttoms/navigation-bg1.webp");
-        background: url("../assets/images/icons-buttoms/navigation-bg1.webp");
+        background: url('../assets/images/icons-buttoms/navigation-bg1.webp');
         background-repeat: no-repeat;
         background-size: cover;
         text-align: center;
@@ -372,13 +362,10 @@ body::-webkit-scrollbar-thumb {
           color: cfg.$color-5;
           padding-top: 5px;
         }
-
       }
-
     }
   }
 }
-
 
 .section_hability {
   margin-top: 3rem;
@@ -400,7 +387,7 @@ body::-webkit-scrollbar-thumb {
 
     &_description {
       font-family: cfg.$font-tertiary;
-      line-height: 2.0;
+      line-height: 2;
     }
   }
 
@@ -447,10 +434,9 @@ body::-webkit-scrollbar-thumb {
 
       //animacion al pasar mause
       &_img:hover {
-        transform: scale(1.10);
+        transform: scale(1.1);
         box-shadow: 0px 0px 25px 1px #ec731e;
       }
-
     }
   }
 }
@@ -462,17 +448,16 @@ body::-webkit-scrollbar-thumb {
 
   &_title {
     text-align: center;
-    margin: 0px 1.0rem;
+    margin: 0px 1rem;
 
     &_name {
-      font-family: "Montserrat Alternates", sans-serif;
+      font-family: 'Montserrat Alternates', sans-serif;
       text-transform: uppercase;
       text-align: center;
     }
 
     &_description {
-      line-height: 2.0;
-      ;
+      line-height: 2;
     }
   }
 
@@ -528,7 +513,6 @@ body::-webkit-scrollbar-thumb {
           }
         }
       }
-
     }
   }
 
@@ -548,14 +532,16 @@ body::-webkit-scrollbar-thumb {
       border-radius: 5px;
       cursor: pointer;
       /* Cambia el cursor a pointer */
-      transition: background-color 0.3s, color 0.3s;
+      transition:
+        background-color 0.3s,
+        color 0.3s;
       /* Transición para el efecto hover */
       text-decoration: none;
     }
 
     &_all:hover {
       background-color: cfg.$color-4a;
-      border: 1px solid cfg.$color-4b ;
+      border: 1px solid cfg.$color-4b;
       /* Cambia el color de fondo al pasar el cursor */
       color: #fff;
       /* Cambia el color del texto al pasar el cursor */
@@ -564,7 +550,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer {
-
   padding: 0rem 0rem;
   color: cfg.$color-5;
   align-items: center;
@@ -581,18 +566,22 @@ body::-webkit-scrollbar-thumb {
       padding-bottom: 1rem;
 
       &_title {
-        margin-left: 1.0rem;
+        margin-left: 1rem;
         font-family: cfg.$font-secondary;
         font-weight: 400;
       }
 
       &_images {
+
+
         &_link {
           &-img {
             display: block;
-            width: 120x;
-            height: 120px;
+            width: 100x;
+            height: 100px;
           }
+
+
         }
       }
     }
@@ -601,7 +590,7 @@ body::-webkit-scrollbar-thumb {
       padding-bottom: 1rem;
 
       &_title {
-        margin-left: 1.0rem;
+        margin-left: 1rem;
         font-family: cfg.$font-secondary;
         font-weight: 400;
       }
@@ -612,7 +601,6 @@ body::-webkit-scrollbar-thumb {
         justify-items: center;
         width: 295px;
       }
-
     }
 
     &-menu {
@@ -622,7 +610,7 @@ body::-webkit-scrollbar-thumb {
       &_title {
         font-family: cfg.$font-secondary;
         font-weight: 400;
-        padding-left: 2.0rem;
+        padding-left: 2rem;
         margin-bottom: 0px;
       }
 
@@ -638,7 +626,6 @@ body::-webkit-scrollbar-thumb {
             margin-left: 1rem;
             color: cfg.$color-5;
             text-decoration: none;
-
           }
 
           &_link:hover {
@@ -664,8 +651,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 //-----------------MEDIA QUERYS------------------//
-//FUXIA ALTERNATIVO, Tamaño XXS, Ancho Maximo 319px, mobile xxs 
-@media (max-width:319px) {
+//FUXIA ALTERNATIVO, Tamaño XXS, Ancho Maximo 319px, mobile xxs
+@media (max-width: 319px) {
 
   // para hacer Test y reconocer facil
   .cont_header {
@@ -742,7 +729,7 @@ body::-webkit-scrollbar-thumb {
 
         &_button {
           //background: url("~/assets/images/icons-buttoms/navigation-bg1.webp");
-          background: url("../assets/images/icons-buttoms/navigation-bg1.webp");
+          background: url('../assets/images/icons-buttoms/navigation-bg1.webp');
           background-repeat: no-repeat;
           background-size: cover;
           text-align: center;
@@ -763,7 +750,7 @@ body::-webkit-scrollbar-thumb {
         display: block;
 
         &_data {
-          font-size: 1.0rem;
+          font-size: 1rem;
           margin-bottom: 0px;
         }
 
@@ -776,7 +763,7 @@ body::-webkit-scrollbar-thumb {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding-bottom: 1.0rem;
+        padding-bottom: 1rem;
 
         &_img {
           width: 140px;
@@ -793,7 +780,7 @@ body::-webkit-scrollbar-thumb {
       justify-content: space-around;
 
       &_card {
-        margin-bottom: 1.0rem;
+        margin-bottom: 1rem;
         padding-right: 0px;
         padding-left: 0px;
 
@@ -831,8 +818,8 @@ body::-webkit-scrollbar-thumb {
         &_description {
           text-align: center;
           width: 90%;
-          margin-left: 1.0rem;
-          margin-right: 1.0rem;
+          margin-left: 1rem;
+          margin-right: 1rem;
         }
       }
 
@@ -857,7 +844,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 //CELESTE, Tamaño S , Tablet
-@media (min-width: 460px) and (max-width:620px) {
+@media (min-width: 460px) and (max-width: 620px) {
 
   // para hacer Test y reconocer facil
   .cont_header {
@@ -873,7 +860,7 @@ body::-webkit-scrollbar-thumb {
       width: 400px;
 
       &_title {
-        font-size: 3.0rem;
+        font-size: 3rem;
       }
 
       &_button {
@@ -889,7 +876,6 @@ body::-webkit-scrollbar-thumb {
 
       &_gamer {
         left: 180px;
-
       }
     }
   }
@@ -928,10 +914,9 @@ body::-webkit-scrollbar-thumb {
         margin-bottom: 1rem;
         max-width: 400px;
 
-
         &_button {
           //background: url("~/assets/images/icons-buttoms/navigation-bg1.webp");
-          background: url("../assets/images/icons-buttoms/navigation-bg1.webp");
+          background: url('../assets/images/icons-buttoms/navigation-bg1.webp');
           background-repeat: no-repeat;
           background-size: cover;
           text-align: center;
@@ -949,7 +934,7 @@ body::-webkit-scrollbar-thumb {
     &_content {
       &-info {
         &_data {
-          font-size: 1.0rem;
+          font-size: 1rem;
           margin-bottom: 0px;
         }
 
@@ -970,14 +955,12 @@ body::-webkit-scrollbar-thumb {
         }
       }
     }
-
-
   }
 
   .section_news {
     &_article {
       &_card {
-        margin-bottom: 1.0rem;
+        margin-bottom: 1rem;
 
         &_tumb {
           width: 390px;
@@ -1013,8 +996,8 @@ body::-webkit-scrollbar-thumb {
         &_description {
           text-align: center;
           width: 90%;
-          margin-left: 1.0rem;
-          margin-right: 1.0rem;
+          margin-left: 1rem;
+          margin-right: 1rem;
         }
       }
 
@@ -1040,7 +1023,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 //NARANJA, Tamaño MD
-@media (min-width: 620px) and (max-width:1024px) {
+@media (min-width: 620px) and (max-width: 1024px) {
 
   // para hacer Test y reconocer facil
   .cont_header {
@@ -1121,7 +1104,6 @@ body::-webkit-scrollbar-thumb {
           &_button {
             width: 68px;
             height: 54px;
-
           }
         }
       }
@@ -1135,7 +1117,7 @@ body::-webkit-scrollbar-thumb {
 
     &_title {
       &_name {
-        font-size: 2.0rem;
+        font-size: 2rem;
       }
     }
 
@@ -1147,7 +1129,7 @@ body::-webkit-scrollbar-thumb {
 
       &-info {
         &_data {
-          font-size: 1.0rem;
+          font-size: 1rem;
           margin-bottom: 0px;
         }
 
@@ -1159,7 +1141,7 @@ body::-webkit-scrollbar-thumb {
 
       &_items {
         flex-direction: row;
-        padding-bottom: 1.0rem;
+        padding-bottom: 1rem;
 
         &_img {
           width: 140px;
@@ -1168,8 +1150,6 @@ body::-webkit-scrollbar-thumb {
         }
       }
     }
-
-
   }
 
   .section_news {
@@ -1178,7 +1158,7 @@ body::-webkit-scrollbar-thumb {
 
     &_title {
       &_name {
-        font-size: 2.0rem;
+        font-size: 2rem;
       }
     }
 
@@ -1187,13 +1167,13 @@ body::-webkit-scrollbar-thumb {
       margin: 0rem 1rem;
 
       &_card {
-        margin-bottom: 1.0rem;
+        margin-bottom: 1rem;
       }
     }
   }
 
   .footer {
-    padding-top: 3.0rem;
+    padding-top: 3rem;
 
     &-grid {
       grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -1221,8 +1201,8 @@ body::-webkit-scrollbar-thumb {
         &_description {
           text-align: center;
           width: 90%;
-          margin-left: 1.0rem;
-          margin-right: 1.0rem;
+          margin-left: 1rem;
+          margin-right: 1rem;
         }
       }
 
@@ -1251,15 +1231,14 @@ body::-webkit-scrollbar-thumb {
       text-align: center;
     }
   }
-
 }
 
 //VIOLETA, Tamaño L
-@media (min-width: 1024px) and (max-width:1280px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
 
   // para hacer Test y reconocer facil
   .cont_header {
-    background: #820efe;
+    background: #20adff;
   }
 
   // para hacer Test y reconocer facil
@@ -1296,6 +1275,7 @@ body::-webkit-scrollbar-thumb {
       &_gamer {
         width: 100%;
         height: 100%;
+        top: 40px;
       }
     }
   }
@@ -1343,7 +1323,6 @@ body::-webkit-scrollbar-thumb {
           margin-bottom: 2rem;
         }
       }
-
     }
   }
 
@@ -1357,10 +1336,9 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: nowrap;
     align-items: center;
 
-
     &_title {
       &_name {
-        font-size: 2.0rem;
+        font-size: 2rem;
       }
     }
 
@@ -1378,7 +1356,7 @@ body::-webkit-scrollbar-thumb {
         margin: 0px;
 
         &_data {
-          font-size: 1.0rem;
+          font-size: 1rem;
           margin: 0px;
         }
 
@@ -1402,8 +1380,6 @@ body::-webkit-scrollbar-thumb {
         }
       }
     }
-
-
   }
 
   .section_news {
@@ -1418,7 +1394,7 @@ body::-webkit-scrollbar-thumb {
       margin-bottom: 3rem;
 
       &_name {
-        font-size: 2.0rem;
+        font-size: 2rem;
       }
     }
 
@@ -1472,7 +1448,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .footer {
-    padding-top: 3.0rem;
+    padding-top: 3rem;
 
     &-grid {
       grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -1485,7 +1461,7 @@ body::-webkit-scrollbar-thumb {
           &_link {
             &-img {
               display: inline-flex;
-              width: 120px;
+              width: 90px;
               height: 120px;
             }
           }
@@ -1498,8 +1474,8 @@ body::-webkit-scrollbar-thumb {
         &_description {
           text-align: center;
           width: 90%;
-          margin-left: 1.0rem;
-          margin-right: 1.0rem;
+          margin-left: 1rem;
+          margin-right: 1rem;
         }
       }
 
@@ -1519,7 +1495,6 @@ body::-webkit-scrollbar-thumb {
 
           &_title {
             position: static;
-
           }
 
           &_list {
@@ -1539,7 +1514,6 @@ body::-webkit-scrollbar-thumb {
       text-align: center;
     }
   }
-
 }
 
 //OLIVA, Tamaño XL
@@ -1631,7 +1605,6 @@ body::-webkit-scrollbar-thumb {
           margin-bottom: 2rem;
         }
       }
-
     }
   }
 
@@ -1645,10 +1618,9 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: nowrap;
     align-items: center;
 
-
     &_title {
       &_name {
-        font-size: 2.0rem;
+        font-size: 2rem;
       }
     }
 
@@ -1666,7 +1638,7 @@ body::-webkit-scrollbar-thumb {
         margin: 0px;
 
         &_data {
-          font-size: 1.0rem;
+          font-size: 1rem;
           margin: 0px;
         }
 
@@ -1690,8 +1662,6 @@ body::-webkit-scrollbar-thumb {
         }
       }
     }
-
-
   }
 
   .section_news {
@@ -1706,7 +1676,7 @@ body::-webkit-scrollbar-thumb {
       margin-bottom: 3rem;
 
       &_name {
-        font-size: 2.0rem;
+        font-size: 2rem;
       }
     }
 
@@ -1758,7 +1728,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .footer {
-    padding-top: 3.0rem;
+    padding-top: 3rem;
 
     &-grid {
       grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -1784,8 +1754,8 @@ body::-webkit-scrollbar-thumb {
         &_description {
           text-align: center;
           width: 90%;
-          margin-left: 1.0rem;
-          margin-right: 1.0rem;
+          margin-left: 1rem;
+          margin-right: 1rem;
         }
       }
 
@@ -1810,7 +1780,6 @@ body::-webkit-scrollbar-thumb {
 
           &_title {
             position: static;
-
           }
 
           &_list {
@@ -1830,5 +1799,4 @@ body::-webkit-scrollbar-thumb {
       text-align: center;
     }
   }
-
 }

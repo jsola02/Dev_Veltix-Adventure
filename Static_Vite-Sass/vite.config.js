@@ -1,10 +1,11 @@
+// vite.config.js
 import { defineConfig } from 'vite';
-import path from 'path'; // Importa el módulo path
+import path from 'path';
 
 export default defineConfig({
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'), // Alias para la carpeta src
+      '@': path.resolve(__dirname, 'src'),
     },
   },
   css: {
@@ -12,6 +13,11 @@ export default defineConfig({
       scss: {
         additionalData: `@use "@/styles/_config" as cfg;`,
       },
+    },
+  },
+  server: {
+    watch: {
+      usePolling: true, // Útil en entornos como WSL o Docker
     },
   },
 });

@@ -9,16 +9,16 @@ $font-tertiary: 'Nunito', sans-serif;
 
 
 //PALETA DE COLORES
-$color-1: #4640FF;
-$color-2: #1AA5F6;
-$color-3: #EFAA1C;
-$color-4a: #9333E6;
+$color-1: #4640ff;
+$color-2: #1aa5f6;
+$color-3: #efaa1c;
+$color-4a: #9333e6;
 $color-4b: #6610f2;
-$color-4c:#160e3d;
+$color-4c: #160e3d;
 $color-4d: #140e38;
 $color-4e: #0d0923;
 $color-5: #fff;
-$color-5b:#c4cbf9;
+$color-5b: #c4cbf9;
 
 //footer
 $color-footer: #110b31;
@@ -28,35 +28,31 @@ $color-cardaside: #160351;
 
 //background noticias
 $color-background: #000033;
-$color-background:  rgb(0, 0, 41);; 
+$color-background: rgb(0, 0, 41);
 
 //transparencias
 $color-tr1: #766ee6;
 $color-tr2: #4640ff7a;
 
-
-
-h1 {  
+h1 {
   font-family: $font-primary;
   color: $color-5;
-  font-size: 2.0rem;
+  font-size: 2rem;
 }
 
 h2 {
   font-size: 1.4rem;
-  font-family: $font-primary ;
+  font-family: $font-primary;
   color: $color-5;
 }
 
 h3 {
   font-size: 1.25rem;
-  font-family: $font-primary ;
+  font-family: $font-primary;
   color: $color-5;
 }
+
 p {
-  font-size: 1.0rem;
+  font-size: 1rem;
   font-family: $font-tertiary;
 }
-
-
-

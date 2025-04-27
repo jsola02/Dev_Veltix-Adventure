@@ -1,27 +1,27 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Alternates:wght@200;400;700;800&family=Nunito:wght@200;300;400&display=swap");
-@import url("https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Alternates:wght@200;400;700;800&family=Nunito:wght@200;300;400&display=swap');
+@import url('https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css');
 h1 {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   color: #fff;
   font-size: 2rem;
 }
 
 h2 {
   font-size: 1.4rem;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   color: #fff;
 }
 
 h3 {
   font-size: 1.25rem;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   color: #fff;
 }
 
 p {
   font-size: 1rem;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .active {
-  border: 1px solid #EFAA1C;
+  border: 1px solid #efaa1c;
   border-top: hidden;
   border-left: hidden;
   border-right: hidden;
@@ -91,7 +91,7 @@ body::-webkit-scrollbar-thumb {
 .cont_header_nav-logo_link {
   text-decoration: none;
   color: #fff;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-weight: 700;
   padding-left: 16px;
   padding-top: 8px;
@@ -104,7 +104,7 @@ body::-webkit-scrollbar-thumb {
 }
 .cont_header_nav-logo_link_title {
   margin-top: 0px;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 0.8rem;
   padding-left: 3px;
 }
@@ -121,7 +121,7 @@ body::-webkit-scrollbar-thumb {
   padding: 5px 10px;
 }
 .cont_header_nav-menu_list_item_link {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
   text-decoration: none;
@@ -196,7 +196,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .section_slide {
-  background-image: url("../assets/images/pages/bg1.webp");
+  background-image: url('../assets/images/pages/bg1.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -216,11 +216,11 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 10px;
 }
 .section_slide_content_description {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   margin-top: 10px;
 }
 .section_slide_content_button {
-  background-image: url("../assets/images/icons-buttoms/get-it-on_playstore.png");
+  background-image: url('../assets/images/icons-buttoms/get-it-on_playstore.png');
   background-repeat: no-repeat;
   background-size: 120px;
   width: 120px;
@@ -285,7 +285,7 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 1.5rem;
   text-align: center;
   margin: 0px 8px 16px 8px;
-  background-image: url("../assets/images/pages/card1-bg1.webp");
+  background-image: url('../assets/images/pages/card1-bg1.webp');
   background-repeat: no-repeat;
   background-size: cover;
   width: 290px;
@@ -298,23 +298,26 @@ body::-webkit-scrollbar-thumb {
   transition: transform 0.5s ease-in-out;
   transform: rotate(0deg);
 }
-.section_category-popular_content-card:nth-child(1) .section_category-popular_content-card_img:hover {
+.section_category-popular_content-card:nth-child(1)
+  .section_category-popular_content-card_img:hover {
   transform: rotate(-25deg);
 }
-.section_category-popular_content-card:nth-child(2) .section_category-popular_content-card_img:hover {
+.section_category-popular_content-card:nth-child(2)
+  .section_category-popular_content-card_img:hover {
   transform: scale(1.1);
 }
-.section_category-popular_content-card:nth-child(3) .section_category-popular_content-card_img:hover {
+.section_category-popular_content-card:nth-child(3)
+  .section_category-popular_content-card_img:hover {
   transform: rotate(25deg);
 }
 .section_category-popular_content-card_text {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.5;
   padding: 1rem;
   margin-bottom: 0px;
 }
 .section_category-popular_content-card_link {
-  background: url("../assets/images/icons-buttoms/navigation-bg1.webp");
+  background: url('../assets/images/icons-buttoms/navigation-bg1.webp');
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -343,7 +346,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 }
 .section_hability_title_description {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   line-height: 2;
 }
 .section_hability_content {
@@ -361,10 +364,10 @@ body::-webkit-scrollbar-thumb {
   display: block;
 }
 .section_hability_content-info_data {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 .section_hability_content-info_category {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   margin-top: 1rem;
 }
 .section_hability_content_items {
@@ -375,9 +378,9 @@ body::-webkit-scrollbar-thumb {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  background: #EFAA1C;
+  background: #efaa1c;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin-top: 10px;
   margin-bottom: 10px;
   cursor: pointer;
@@ -398,7 +401,7 @@ body::-webkit-scrollbar-thumb {
   margin: 0px 1rem;
 }
 .section_news_title_name {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
@@ -425,13 +428,13 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .section_news_article_card_content {
   padding-left: 0.8rem;
 }
 .section_news_article_card_content_date {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
   display: block;
 }
@@ -443,12 +446,12 @@ body::-webkit-scrollbar-thumb {
 .section_news_article_card_content_more {
   margin-top: 6px;
   text-transform: uppercase;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 .section_news_article_card_content_more_link {
   text-decoration: none;
   color: #fff;
-  color: #EFAA1C;
+  color: #efaa1c;
 }
 .section_news_btn {
   display: flex;
@@ -456,22 +459,24 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
 }
 .section_news_btn_all {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 600;
   padding: 10px 20px;
   font-size: 16px;
   color: #fff;
-  background-color: #EFAA1C;
-  border: 1px solid #EFAA1C;
+  background-color: #efaa1c;
+  border: 1px solid #efaa1c;
   border-radius: 5px;
   cursor: pointer;
   /* Cambia el cursor a pointer */
-  transition: background-color 0.3s, color 0.3s;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
   /* Transición para el efecto hover */
   text-decoration: none;
 }
 .section_news_btn_all:hover {
-  background-color: #9333E6;
+  background-color: #9333e6;
   border: 1px solid #6610f2;
   /* Cambia el color de fondo al pasar el cursor */
   color: #fff;
@@ -482,7 +487,7 @@ body::-webkit-scrollbar-thumb {
   padding: 0rem 0rem;
   color: #fff;
   align-items: center;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   background: #110b31;
 }
 .footer-grid {
@@ -496,7 +501,7 @@ body::-webkit-scrollbar-thumb {
 }
 .footer-grid-social_title {
   margin-left: 1rem;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-weight: 400;
 }
 .footer-grid-social_images_link-img {
@@ -509,7 +514,7 @@ body::-webkit-scrollbar-thumb {
 }
 .footer-grid-text_title {
   margin-left: 1rem;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-weight: 400;
 }
 .footer-grid-text_description {
@@ -523,7 +528,7 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 1rem;
 }
 .footer-grid-menu_title {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-weight: 400;
   padding-left: 2rem;
   margin-bottom: 0px;
@@ -612,7 +617,7 @@ body::-webkit-scrollbar-thumb {
     height: 180px;
   }
   .section_category-popular_content-card_button {
-    background: url("../assets/images/icons-buttoms/navigation-bg1.webp");
+    background: url('../assets/images/icons-buttoms/navigation-bg1.webp');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -752,7 +757,7 @@ body::-webkit-scrollbar-thumb {
     max-width: 400px;
   }
   .section_category-popular_content-card_button {
-    background: url("../assets/images/icons-buttoms/navigation-bg1.webp");
+    background: url('../assets/images/icons-buttoms/navigation-bg1.webp');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -1424,4 +1429,4 @@ body::-webkit-scrollbar-thumb {
     padding: 3px 0px 3px 0px;
     text-align: center;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

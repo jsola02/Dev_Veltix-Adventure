@@ -10,7 +10,6 @@
   display: block;
   padding: 0px 4rem; */
 
-
   &_content {
     display: inline;
     text-align: start;
@@ -37,7 +36,6 @@
           text-decoration: none;
           color: #f2b017;
           margin-left: 15px;
-
         }
       }
     }
@@ -110,7 +108,6 @@
         &_img {
           width: 100%;
           height: 100%;
-
         }
       }
 
@@ -162,7 +159,7 @@
         }
 
         &_more {
-          font-size: 1.0rem;
+          font-size: 1rem;
           margin-top: 1rem;
           margin-bottom: 0px;
           color: cfg.$color-3;
@@ -170,19 +167,16 @@
           text-decoration: none;
         }
       }
-
-
     }
 
     &_article-item {
       margin-bottom: 2rem;
-      padding-top: 2.0rem;
+      padding-top: 2rem;
       display: flex;
       flex-direction: column;
       background: cfg.$color-4c;
       align-items: center;
       text-align: center;
-
 
       &_tumbnail {
         max-width: 180px;
@@ -197,7 +191,6 @@
           height: 100%;
         }
       }
-
 
       &_content {
         margin-left: 0.5rem;
@@ -215,7 +208,7 @@
         }
 
         &_more {
-          font-size: 1.0rem;
+          font-size: 1rem;
           margin-top: 1rem;
           margin-bottom: 0px;
           color: cfg.$color-3;
@@ -226,7 +219,6 @@
     }
 
     &_pagination {
-
       &_list {
         display: flex;
         list-style-type: none;
@@ -234,7 +226,7 @@
         padding-left: 0px;
 
         &_number {
-          border: 1px solid cfg.$color-3 ;
+          border: 1px solid cfg.$color-3;
           border-radius: 0px 0px 0px 12px;
           color: cfg.$color-5;
           background-color: cfg.$color-3;
@@ -256,7 +248,6 @@
         }
       }
     }
-
   }
 
   /*  ---- section Detalles de noticia -----*/
@@ -306,7 +297,6 @@
     }
 
     &_pagination {
-
       &_list {
         display: flex;
         list-style-type: none;
@@ -314,7 +304,7 @@
         padding-left: 0px;
 
         &_word {
-          border: 1px solid cfg.$color-3 ;
+          border: 1px solid cfg.$color-3;
           border-radius: 125px 125px 125px 125px;
           color: cfg.$color-5;
           background-color: cfg.$color-3;
@@ -344,7 +334,7 @@
   &_aside {
     margin: 0 auto;
     width: 90%;
-    margin-top: 2.0rem;
+    margin-top: 2rem;
     //grid-area: section_main_aside;
 
     &_adds {
@@ -442,19 +432,17 @@
       }
     }
   }
-
 }
 
 /*  ---- section Detalles de noticia -----*/
 
-
-
 //--------------MEDIA QUERYS--------------//
-//FUXIA ALTERNATIVO, Tamaño XXS, Ancho Maximo 319px, mobile xxs 
-@media(max-width:319px) {}
+//FUXIA ALTERNATIVO, Tamaño XXS, Ancho Maximo 319px, mobile xxs
+@media (max-width: 319px) {
+}
 
 //CELESTE, Tamaño S , Tablet
-@media (min-width:460px) and (max-width:620px) {
+@media (min-width: 460px) and (max-width: 620px) {
   .footer-grid {
     &_text {
       grid-column: span 2;
@@ -463,7 +451,7 @@
 }
 
 //NARANJA, Tamaño MD
-@media (min-width:620px) and (max-width:1024px) {
+@media (min-width: 620px) and (max-width: 1024px) {
   .section_main {
     width: 90%;
     margin: 0 auto;
@@ -471,9 +459,7 @@
     background: cfg.$color-background;
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-areas:
-      "section_main_news section_main_aside"
-    ;
+    grid-template-areas: 'section_main_news section_main_aside';
     gap: 1.5rem;
 
     &_newsb {
@@ -486,7 +472,7 @@
       margin: 0 auto;
       width: 90%;
       grid-area: section_main_aside;
-      margin-top: 2.0rem;
+      margin-top: 2rem;
 
       &_adds {
         margin-top: 0px;
@@ -500,7 +486,7 @@
 }
 
 //VIOLETA, Tamaño L
-@media (min-width: 1024px) and (max-width:1280px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .section_main {
     width: 90%;
     margin: 0 auto;
@@ -508,28 +494,24 @@
     background: cfg.$color-background;
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-areas:
-      "section_main_news section_main_aside"
-    ;
+    grid-template-areas: 'section_main_news section_main_aside';
     gap: 1.5rem;
 
     &_news {
       margin: 0 auto;
     }
 
-
     &_newsb {
       &_article {
-        margin-bottom: 2.0rem;
+        margin-bottom: 2rem;
       }
     }
-
 
     &_aside {
       margin: 0 auto;
       width: 90%;
       grid-area: section_main_aside;
-      margin-top: 2.0rem;
+      margin-top: 2rem;
 
       &_category {
         margin-top: 0px;
@@ -543,7 +525,7 @@
 }
 
 //OLIVA, Tamaño XL
-@media (min-width:1280px) {
+@media (min-width: 1280px) {
   .section_main {
     width: 90%;
     margin: 0 auto;
@@ -551,11 +533,8 @@
     background: cfg.$color-background;
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-areas:
-      "section_main_news section_main_aside"
-    ;
+    grid-template-areas: 'section_main_news section_main_aside';
     gap: 1.5rem;
-
 
     &_news {
       margin: 0 auto;
@@ -572,7 +551,6 @@
       width: 90%;
       grid-area: section_main_aside;
 
-
       &_adds {
         margin-top: 0px;
       }
@@ -583,7 +561,6 @@
     }
   }
 }
-
 
 // --------- PARTE DE NUXT------------------//
 // --------- NOTICIAS FILTRADAS ------------//
@@ -597,15 +574,15 @@
     color: #ef2c93;
 
     &_name {
-      font-family: "Montserrat Alternates", sans-serif;
+      font-family: 'Montserrat Alternates', sans-serif;
       text-transform: uppercase;
       text-align: center;
-      font-size: 2.0rem;
+      font-size: 2rem;
       margin-bottom: 8px;
     }
 
     &_description {
-      line-height: 2.0;
+      line-height: 2;
       margin-top: 0px;
     }
   }
@@ -668,12 +645,10 @@
       }
     }
   }
-
 }
 
 // ---------- barra de categorias ----------//
 .section_main_filter {
-
   &_category {
     margin-top: 2rem;
     border-radius: 13px 13px 13px 13px;
@@ -688,7 +663,6 @@
     }
 
     &_content {
-
       &_link {
         text-decoration: none;
         padding: 1rem 2rem;
@@ -705,10 +679,7 @@
         border: 1px solid #39276f;
         color: #dcd9fc;
         background: #4c368d;
-        ;
-
       }
     }
-
   }
 }

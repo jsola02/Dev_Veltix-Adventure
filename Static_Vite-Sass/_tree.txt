@@ -1,0 +1,121 @@
+Static_Vite-Sass/
+├─ .temp/
+│  ├─ Desktop_L/
+│  │  ├─ TamaWiki_Home.png
+│  │  ├─ TamaWiki_Home2.png
+│  │  ├─ TamaWiki_Seccion_Noticias - Blog.png
+│  │  └─ TamaWiki_Seccion_Noticias_details - Blog.png
+│  ├─ Movil_XS/
+│  │  ├─ Blog_Noticias_mobil-2.png
+│  │  ├─ Blog_Noticias_mobil.png
+│  │  └─ inicio_12-09-2023.png
+│  ├─ Medidas Query.txt
+│  └─ NORMAS GRAFICAS.txt
+├─ public/
+│  ├─ blogDetalles.html
+│  ├─ blogItems.html
+│  ├─ blogNoticias.html
+│  ├─ favicon.ico
+│  └─ vite.svg
+├─ src/
+│  ├─ assets/
+│  │  └─ images/
+│  │     ├─ adds/
+│  │     │  ├─ adds1.jpg
+│  │     │  └─ adds2.jpg
+│  │     ├─ ia/
+│  │     │  ├─ 0dd92dcdd22976eb4d9ab8565ac704305dbea8dc.png
+│  │     │  ├─ 1.png
+│  │     │  ├─ 1SV600PNNSJCN48AZ44X0B7MH0.jpeg
+│  │     │  ├─ 2.png
+│  │     │  ├─ 2BQCCH7Q84C7K9RG35B61VHXF0.jpeg
+│  │     │  ├─ 3.png
+│  │     │  ├─ 364e6fe3ebc2bc53d32decf3057849aa_high.jpg
+│  │     │  ├─ 4.png
+│  │     │  ├─ 5.png
+│  │     │  ├─ 529d37f3dfa990dac86614d73e0f8efd.png
+│  │     │  ├─ 6.png
+│  │     │  ├─ A small, rounded character with a fire.webp
+│  │     │  ├─ d0ace81d222b54fb6dabf2baecd79568.png
+│  │     │  ├─ e8d1c7613fa31911017d625ee8a62661384b7438.png
+│  │     │  ├─ Gemini_Generated_Image_6eohte6eohte6eoh.jpg
+│  │     │  ├─ Gemini_Generated_Image_pbgk3dpbgk3dpbgk.jpg
+│  │     │  ├─ Gemini_Generated_Image_wzx5yswzx5yswzx5.jpg
+│  │     │  └─ home-nav-logo.7af9b8f.png
+│  │     ├─ icons-buttoms/
+│  │     │  ├─ close.svg
+│  │     │  ├─ favicon.ico
+│  │     │  ├─ get-it-on_playstore.png
+│  │     │  ├─ logo.webp
+│  │     │  ├─ logo2.webp
+│  │     │  ├─ menu_shape.webp
+│  │     │  ├─ menu.svg
+│  │     │  ├─ navigation-bg1.webp
+│  │     │  └─ title-purchase.webp
+│  │     ├─ items/
+│  │     │  ├─ armas/
+│  │     │  │  ├─ bebida_energetizante_legendario.png
+│  │     │  │  └─ elixir_azul_legendario.png
+│  │     │  ├─ comida/
+│  │     │  │  ├─ comida1.png
+│  │     │  │  ├─ comida2.png
+│  │     │  │  └─ comida3.png
+│  │     │  ├─ gemas/
+│  │     │  │  ├─ ga-1.webp
+│  │     │  │  ├─ gr-1.webp
+│  │     │  │  ├─ morada2.png
+│  │     │  │  ├─ roja2.png
+│  │     │  │  └─ verde2.png
+│  │     │  └─ posiones/
+│  │     │     ├─ pa-1.webp
+│  │     │     ├─ pm-1.webp
+│  │     │     └─ pr-1.webp
+│  │     ├─ news/
+│  │     │  ├─ tumbnails/
+│  │     │  │  ├─ anillo_dorado_y_verde_legendario22.png
+│  │     │  │  ├─ bebida_en_lata_legendaria.png
+│  │     │  │  ├─ bebida_refrescante_mitica.png
+│  │     │  │  ├─ elixir_azul_legendario.jpg
+│  │     │  │  ├─ pan_mitico.png
+│  │     │  │  └─ pastelito_afortunado_mitico.png
+│  │     │  ├─ cuarta-evolucion-gatito-1.webp
+│  │     │  └─ news-1.webp
+│  │     └─ pages/
+│  │        ├─ anillo2.webp
+│  │        ├─ bg1.webp
+│  │        ├─ ca-1.webp
+│  │        ├─ card1-bg1.webp
+│  │        ├─ card2-bg1.png
+│  │        ├─ card2-bg1.webp
+│  │        ├─ card3-bg1.webp
+│  │        ├─ cf-1.webp
+│  │        ├─ cf-5.webp
+│  │        ├─ gamer.webp
+│  │        ├─ historia.webp
+│  │        ├─ isotipo_blanco.png
+│  │        ├─ Logo_Acka_Game_blanco.webp
+│  │        ├─ Logo_Netgamez.png
+│  │        ├─ mazmorra.d49bacd.png
+│  │        ├─ nweb_logo-small-retina_80x64_Centrado_Blanco.png
+│  │        ├─ tama_warrior.png
+│  │        ├─ tama1.png
+│  │        ├─ tama2.png
+│  │        └─ tama3.png
+│  ├─ js/
+│  │  └─ menu.js
+│  └─ styles/
+│     ├─ _config.scss
+│     ├─ noticias.css
+│     ├─ noticias.css.map
+│     ├─ noticias.scss
+│     ├─ style.css
+│     ├─ style.css.map
+│     └─ style.scss
+├─ _tree.txt
+├─ .gitignore
+├─ .prettierignore
+├─ .prettierrc
+├─ index.html
+├─ package-lock.json
+├─ package.json
+└─ vite.config.js
