@@ -1,9 +1,9 @@
 # Veltix Adventure
 
-Desarrollo para comunidad de proyecto de Juegos.
+Desarrollo de proyecto personal, para comunidad de videojuego.
 
 - Static_Vite-Sass: Version Vite, Html, Sass. Usada para maquetar el proyecto.
-- Dinamica_Nuxt3: Version con Nuxt, Sass y Vitepress. Versión dinámica para crear componentes y documentación.
+- Dinamica_Nuxt3: Version con Nuxt + Sass, Strapi (hedadless) y Vitepress. Versión dinámica para crear componentes y documentación.
 
 ##### Version minima de desarollo
 

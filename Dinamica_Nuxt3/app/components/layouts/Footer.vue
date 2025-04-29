@@ -2,9 +2,9 @@
   <footer class="footer">
     <div class="footer-grid">
       <div class="footer-grid-text">
-        <h2 class="footer-grid-text_title">"Un reino lleno de aventuras"</h2>
-        <p class="footer-grid-text_description">Descubre a los Tamas, son el núcleo y la esencia del mágico mundo de
-          Tama Kingdom. Son adorables y poderosas criaturas coleccionables.</p>
+        <h2 class="footer-grid-text_title">"Un mundo forjado por energías ancestrales"</h2>
+        <p class="footer-grid-text_description">Descubre a las criaturas, herederas de los Primordiales, la esencia
+          primordial hecha forma en el corazón de este mundo mágico.</p>
       </div>
       <div class="footer-grid-social">
         <h2 class="footer-grid-social_title">Partners</h2>

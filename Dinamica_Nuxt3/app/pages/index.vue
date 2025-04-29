@@ -7,8 +7,9 @@ const { data: posts } = await useWpApi().getPosts<any>(); */
   <div>
     <section class="section_slide">
       <div class="section_slide_content">
-        <h1 class="section_slide_content_title">Tama kingdom</h1>
-        <p class="section_slide_content_description">Descubre adorables & poderosas criaturas.</p>
+        <h1 class="section_slide_content_title">Veltix Adventure
+        </h1>
+        <p class="section_slide_content_description">Descubre poderosas criaturas.</p>
         <button type="button" class="section_slide_content_button" title="boton de descarga"
           aria-label="descargar desde playstore">
         </button>
