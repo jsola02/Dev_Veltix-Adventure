@@ -538,7 +538,7 @@ export interface ApiHomeHome extends Struct.SingleTypeSchema {
   collectionName: 'homes';
   info: {
     description: '';
-    displayName: 'Home';
+    displayName: 'home';
     pluralName: 'homes';
     singularName: 'home';
   };
@@ -558,9 +558,13 @@ export interface ApiHomeHome extends Struct.SingleTypeSchema {
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::home.home'>;
     publishedAt: Schema.Attribute.DateTime;
-    subtitulo: Schema.Attribute.Blocks &
+    subtitulo: Schema.Attribute.String &
       Schema.Attribute.Required &
-      Schema.Attribute.Private;
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     titulo: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
@@ -570,13 +574,6 @@ export interface ApiHomeHome extends Struct.SingleTypeSchema {
       }> &
       Schema.Attribute.SetMinMaxLength<{
         minLength: 5;
-      }>;
-    TituloCategoriasUniverso: Schema.Attribute.String &
-      Schema.Attribute.Required &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
       }>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
