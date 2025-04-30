@@ -19,6 +19,7 @@ dist
 
 # Node dependencies
 /Dinamica_Nuxt3/app/node_modules
+/Dinamica_Nuxt3/back/node_modules
 /Dinamica_Nuxt3/docs/node_modules
 /Static_Vite-Sass/node_modules
 
@@ -37,123 +38,125 @@ logs
 !.env.example
 
 
-
-
 ############################
 # Linux
 ############################
-
 *~
-
-
-############################
-# Windows
-############################
-
-Thumbs.db
-/Dinamica_Nuxt3/app/back/ehthumbs.db
-/Dinamica_Nuxt3/app/back/Desktop.ini
-/Dinamica_Nuxt3/app/back/$RECYCLE.BIN/
-/Dinamica_Nuxt3/app/back/*.cab
-/Dinamica_Nuxt3/app/back/*.msi
-/Dinamica_Nuxt3/app/back/*.msm
-/Dinamica_Nuxt3/app/back/*.msp
 
 
 ############################
 # Packages
 ############################
 
-/Dinamica_Nuxt3/app/back/*.7z
-/Dinamica_Nuxt3/app/back/*.csv
-*.dat
-/Dinamica_Nuxt3/app/back/*.dmg
-/Dinamica_Nuxt3/app/back/*.gz
-/Dinamica_Nuxt3/app/back/*.iso
-/Dinamica_Nuxt3/app/back/*.jar
-/Dinamica_Nuxt3/app/back/*.rar
-/Dinamica_Nuxt3/app/back/*.tar
-/Dinamica_Nuxt3/app/back/*.zip
-/Dinamica_Nuxt3/app/back/*.com
-/Dinamica_Nuxt3/app/back/*.class
-/Dinamica_Nuxt3/app/back/*.dll
-/Dinamica_Nuxt3/app/back/*.exe
-/Dinamica_Nuxt3/app/back/*.o
-/Dinamica_Nuxt3/app/back/*.seed
-/Dinamica_Nuxt3/app/back/*.so
-/Dinamica_Nuxt3/app/back/*.swo
-/Dinamica_Nuxt3/app/back/*.swp
-/Dinamica_Nuxt3/app/back/*.swn
-/Dinamica_Nuxt3/app/back/*.swm
-/Dinamica_Nuxt3/app/back/*.out
-/Dinamica_Nuxt3/app/back/*.pid
+/Dinamica_Nuxt3/app/*.7z
+/Dinamica_Nuxt3/app/*.csv
+/Dinamica_Nuxt3/app/*.dat
+/Dinamica_Nuxt3/app/*.dmg
+/Dinamica_Nuxt3/app/*.gz
+/Dinamica_Nuxt3/app/*.iso
+/Dinamica_Nuxt3/app/*.jar
+/Dinamica_Nuxt3/app/*.rar
+/Dinamica_Nuxt3/app/*.tar
+/Dinamica_Nuxt3/app/*.zip
+/Dinamica_Nuxt3/app/*.com
+/Dinamica_Nuxt3/app/*.class
+/Dinamica_Nuxt3/app/*.dll
+/Dinamica_Nuxt3/app/*.exe
+/Dinamica_Nuxt3/app/*.o
+/Dinamica_Nuxt3/app/*.seed
+/Dinamica_Nuxt3/app/*.so
+/Dinamica_Nuxt3/app/*.swo
+/Dinamica_Nuxt3/app/*.swp
+/Dinamica_Nuxt3/app/*.swn
+/Dinamica_Nuxt3/app/*.swm
+/Dinamica_Nuxt3/app/*.out
+/Dinamica_Nuxt3/app/*.pid
 
+
+/Dinamica_Nuxt3/back/*.7z
+/Dinamica_Nuxt3/back/*.csv
+/Dinamica_Nuxt3/back*.dat
+/Dinamica_Nuxt3/back/*.dmg
+/Dinamica_Nuxt3/back/*.gz
+/Dinamica_Nuxt3/back/*.iso
+/Dinamica_Nuxt3/back/*.jar
+/Dinamica_Nuxt3/back/*.rar
+/Dinamica_Nuxt3/back/*.tar
+/Dinamica_Nuxt3/back/*.zip
+/Dinamica_Nuxt3/back/*.com
+/Dinamica_Nuxt3/back/*.class
+/Dinamica_Nuxt3/back/*.dll
+/Dinamica_Nuxt3/back/*.exe
+/Dinamica_Nuxt3/back/*.o
+/Dinamica_Nuxt3/back/*.seed
+/Dinamica_Nuxt3/back/*.so
+/Dinamica_Nuxt3/back/*.swo
+/Dinamica_Nuxt3/back/*.swp
+/Dinamica_Nuxt3/back/*.swn
+/Dinamica_Nuxt3/back/*.swm
+/Dinamica_Nuxt3/back/*.out
+/Dinamica_Nuxt3/back/*.pid
 
 ############################
 # Logs and databases
 ############################
 
-/Dinamica_Nuxt3/app/back/.tmp
-/Dinamica_Nuxt3/app/back/*.log
-/Dinamica_Nuxt3/app/back/*.sql
-/Dinamica_Nuxt3/app/back/*.sqlite
-/Dinamica_Nuxt3/app/back/*.sqlite3
+# /Dinamica_Nuxt3/back/.tmp
+/Dinamica_Nuxt3/back/*.log
+/Dinamica_Nuxt3/back/*.sql
+/Dinamica_Nuxt3/back/*.sqlite
+/Dinamica_Nuxt3/back/*.sqlite3
 
 
 ############################
 # Misc.
 ############################
 
-/Dinamica_Nuxt3/app/back//Dinamica_Nuxt3/app/back/*#
-/Dinamica_Nuxt3/app/back//Dinamica_Nuxt3/app/back/ssl
-/Dinamica_Nuxt3/app/back//Dinamica_Nuxt3/app/back/.idea
-/Dinamica_Nuxt3/app/back//Dinamica_Nuxt3/app/back/nbproject
-/Dinamica_Nuxt3/app/back//Dinamica_Nuxt3/app/back/public/uploads/*
-/Dinamica_Nuxt3/app/back//Dinamica_Nuxt3/app/back/!public/uploads/.gitkeep
-/Dinamica_Nuxt3/app/back//Dinamica_Nuxt3/app/back/.tsbuildinfo
-/Dinamica_Nuxt3/app/back//Dinamica_Nuxt3/app/back/.eslintcache
+/Dinamica_Nuxt3/back/*#
+/Dinamica_Nuxt3/back/ssl
+/Dinamica_Nuxt3/back/.idea
+/Dinamica_Nuxt3/back/nbproject
+/Dinamica_Nuxt3/back/public/uploads/*
+/Dinamica_Nuxt3/back/!public/uploads/.gitkeep
+/Dinamica_Nuxt3/back/.tsbuildinfo
+/Dinamica_Nuxt3/back/.eslintcache
 
 ############################
 # Node.js
 ############################
 
-/Dinamica_Nuxt3/app/back/lib-cov
-/Dinamica_Nuxt3/app/back/lcov.info
-/Dinamica_Nuxt3/app/back/pids
-/Dinamica_Nuxt3/app/back/logs
-/Dinamica_Nuxt3/app/back/results
-/Dinamica_Nuxt3/app/back/node_modules
-/Dinamica_Nuxt3/app/back/.node_history
+/Dinamica_Nuxt3/app/lib-cov
+/Dinamica_Nuxt3/app/lcov.info
+/Dinamica_Nuxt3/app/pids
+/Dinamica_Nuxt3/app/logs
+/Dinamica_Nuxt3/app/results
+/Dinamica_Nuxt3/app/node_modules
+/Dinamica_Nuxt3/app/.node_history
 
-############################
-# Package managers
-############################
+/Dinamica_Nuxt3/back/lib-cov
+/Dinamica_Nuxt3/back/lcov.info
+/Dinamica_Nuxt3/back/pids
+/Dinamica_Nuxt3/back/logs
+/Dinamica_Nuxt3/back/results
+/Dinamica_Nuxt3/back/node_modules
+/Dinamica_Nuxt3/back/.node_history
 
-/Dinamica_Nuxt3/app/back/.yarn/*
-/Dinamica_Nuxt3/app/back/!.yarn/cache
-/Dinamica_Nuxt3/app/back/!.yarn/unplugged
-/Dinamica_Nuxt3/app/back/!.yarn/patches
-/Dinamica_Nuxt3/app/back/!.yarn/releases
-/Dinamica_Nuxt3/app/back/!.yarn/sdks
-/Dinamica_Nuxt3/app/back/!.yarn/versions
-/Dinamica_Nuxt3/app/back/.pnp.*
-/Dinamica_Nuxt3/app/back/yarn-error.log
 
 ############################
 # Tests
 ############################
 
-/Dinamica_Nuxt3/app/back/coverage
+/Dinamica_Nuback/coverage
 
 ############################
 # Strapi
 ############################
 
-/Dinamica_Nuxt3/app/back/.env
-/Dinamica_Nuxt3/app/back/license.txt
-/Dinamica_Nuxt3/app/back/exports
-/Dinamica_Nuxt3/app/back/.strapi
-/Dinamica_Nuxt3/app/back/dist
-/Dinamica_Nuxt3/app/back/build
-/Dinamica_Nuxt3/app/back/.strapi-updater.json
-/Dinamica_Nuxt3/app/back/.strapi-cloud.json
+/Dinamica_Nuxt3/back/.env
+/Dinamica_Nuxt3/back/license.txt
+/Dinamica_Nuxt3/back/exports
+/Dinamica_Nuxt3/back/.strapi
+/Dinamica_Nuxt3/back/dist
+/Dinamica_Nuxt3/back/build
+/Dinamica_Nuxt3/back/.strapi-updater.json
+/Dinamica_Nuxt3/back/.strapi-cloud.json
