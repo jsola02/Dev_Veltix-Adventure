@@ -5,7 +5,7 @@ Desarrollo de proyecto personal, para comunidad de videojuego.
 - Static_Vite-Sass: Version Vite, Html, Sass. Usada para maquetar el proyecto.
 - Dinamica_Nuxt3: Version con Nuxt + Sass, Strapi (hedadless) y Vitepress. Versión dinámica para crear componentes y documentación.
 
-##### Version minima de desarollo
+## Version minima de desarollo
 
 Node.js version 18.16.1
 
