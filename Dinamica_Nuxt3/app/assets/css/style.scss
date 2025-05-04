@@ -119,7 +119,6 @@ body::-webkit-scrollbar-thumb {
   }
 
   @media screen and (max-width: 600px) {
-
     .cont_header_nav-button_open,
     .cont_header_nav-button_close {
       display: block;
@@ -2028,7 +2027,8 @@ body::-webkit-scrollbar-thumb {
       }
     }
 
-    @media (min-width: 600px) {}
+    @media (min-width: 600px) {
+    }
   }
 
   /*  ------------------------- section aside ------------------*/

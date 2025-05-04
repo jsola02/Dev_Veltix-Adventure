@@ -2,12 +2,19 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-
+  modules: ['@nuxtjs/apollo'],
   css: [
     // SCSS file in the project
     '~/assets/css/style.scss', // you should add main.scss somewhere in your app
     'line-awesome/dist/line-awesome/css/line-awesome.css',
   ],
+  apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint: 'http://localhost:4000/graphql',
+      },
+    },
+  },
 
   app: {
     head: {

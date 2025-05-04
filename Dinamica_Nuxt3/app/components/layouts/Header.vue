@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-import { useWpApi } from '~/composables/useWpApi';
-const { data: categories } = await useWpApi().getCategories<any>();
-defineProps<{
-  title?: string;
-}>();
+  import { useWpApi } from '~/composables/useWpApi';
+  const { data: categories } = await useWpApi().getCategories<any>();
+  defineProps<{
+    title?: string;
+  }>();
 </script>
 
 <template>
@@ -16,8 +16,8 @@ defineProps<{
 </template>
 
 <style lang="scss" scoped>
-.section_headerblog_content_breadcrumbs-category_item {
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
+  .section_headerblog_content_breadcrumbs-category_item {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
 </style>
