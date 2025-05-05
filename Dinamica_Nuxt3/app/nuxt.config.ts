@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     'line-awesome/dist/line-awesome/css/line-awesome.css',
   ],
   apollo: {
-    clientConfigs: {
+    clients: {
       default: {
         httpEndpoint: 'http://localhost:4000/graphql',
       },

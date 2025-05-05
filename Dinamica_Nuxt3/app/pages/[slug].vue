@@ -1,10 +1,5 @@
 <script lang="ts" setup>
-  import { useWpApi } from '~/composables/useWpApi';
-  import { useRoute } from 'vue-router'; // Asegúrate de importar desde 'vue-router'
-  const { params } = useRoute();
 
-  const { data: posts } = await useWpApi().getPost<any>(params.slug as string);
-  const post = posts.value[0];
 </script>
 
 <template>
@@ -12,17 +7,14 @@
     <!-- {{ params }} -->
     <article class="section_main_news-detail_article">
       <div class="section_main_news-detail_article_tumbnail">
-        <img :src="post._embedded['wp:featuredmedia'][0]?.source_url" alt="" />
+        <img src="" alt="" />
       </div>
       <div class="section_main_news-detail_article_content">
         <h1 class="section_main_news-detail_article_content_title">
-          {{ post.title.rendered }}
+          Titulo para Reemplazar
         </h1>
-        <p>Última actualizacion: {{ post.date }}</p>
-        <div
-          v-html="post.content.rendered"
-          class="section_main_news-detail_article_content_resume"
-        >
+        <p>Última actualizacion: 21-05-2024</p>
+        <div class="section_main_news-detail_article_content_resume">
         </div>
       </div>
     </article>
